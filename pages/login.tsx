@@ -1,13 +1,13 @@
 import type { NextPage } from "next";
 import SEO from "../components/Head";
 
-const Home: NextPage = () => {
+const Login: NextPage = () => {
   return (
     <>
-      <SEO title="Home" />
-      <div>Home Page</div>
+      <SEO title="Login" />
+      <div>Login Page</div>
     </>
   );
 };
 
-export default Home;
+export default Login;
