@@ -14,10 +14,13 @@ export default function Nav() {
       <style jsx>{`
         nav {
           background-color: teal;
+          padding: 20px 10px;
         }
         a {
           text-decoration: none;
           margin: 10px;
+          font-weight: bolder;
+          font-size: 20px;
         }
         .user_here {
           color: blue;

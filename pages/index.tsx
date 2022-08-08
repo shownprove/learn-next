@@ -6,6 +6,14 @@ const Home: NextPage = () => {
     <>
       <SEO title="Home" />
       <div>Home Page</div>
+      <style jsx>
+        {`
+          div {
+            text-align: center;
+            font-size: 200px;
+          }
+        `}
+      </style>
     </>
   );
 };

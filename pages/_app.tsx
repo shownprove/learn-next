@@ -7,6 +7,14 @@ function MyApp({ Component, pageProps }: AppProps) {
     <Layout>
       <Component {...pageProps} />
       <div>전역설정입니다. 항상 보여야 해요.</div>
+      <style jsx>
+        {`
+          div {
+            text-align: center;
+            font-size: 50px;
+          }
+        `}
+      </style>
     </Layout>
   );
 }

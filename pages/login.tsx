@@ -6,6 +6,14 @@ const Login: NextPage = () => {
     <>
       <SEO title="Login" />
       <div>Login Page</div>
+      <style jsx>
+        {`
+          div {
+            text-align: center;
+            font-size: 200px;
+          }
+        `}
+      </style>
     </>
   );
 };
